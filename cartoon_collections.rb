@@ -13,7 +13,7 @@ end
 end
 
 def long_planeteer_calls(array)
-calls_longer_than_four_words = array.any? do |e| e.length> 4 
+calls_longer_than_four_words = array.any? do |e| e.length> 4
 end
 end
 
