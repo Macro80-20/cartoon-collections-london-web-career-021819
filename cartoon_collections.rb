@@ -17,7 +17,11 @@ calls_longer_than_four_words = array.any? do |e| e.length> 4
 end
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+cheese_types = ["cheddar", "gouda", "camembert"]
+snacks = ["crackers", "gouda", "thyme"]
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+def find_the_cheese(ingredients)
+  first_instance_of_cheese = ingredients.find do |cheese| 
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+  end
 end
