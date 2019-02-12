@@ -5,11 +5,10 @@ updated_array = list.each_with_index do
   |name,index| puts "#{index+1}. #{name}"
 end
   end
-
+li = ["doc", "dopey", "bashful", "grumpy"]
 def summon_captain_planet(list)
 list.collect do
-  |element|
-  element.capitalize
+  |element| element = (element + "!").capitalize
 end
 end
 
