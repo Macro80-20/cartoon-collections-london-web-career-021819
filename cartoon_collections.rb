@@ -20,6 +20,7 @@ end
 cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+
 def find_the_cheese(ingredients)
   first_instance_of_cheese = ingredients.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
