@@ -6,7 +6,7 @@ end
   end
 #updated_array = list.map { |x| puts "#{list.index(x)+1}. #{x}"}
 def summon_captain_planet(list)
-  
+
 end
 
 def long_planeteer_calls# code an argument here
